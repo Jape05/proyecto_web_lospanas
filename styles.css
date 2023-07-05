@@ -51,6 +51,7 @@ header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow: hidden;
     gap: 15px;
     width: 95%;
     height: 55px;
@@ -102,7 +103,7 @@ header nav .menu_bar {
     }
 
     .titulo_ppal {
-        font-size: 40px;
+        font-size: 52px;
     }
 
 
@@ -111,14 +112,14 @@ header nav .menu_bar {
         height: 65px;
     }
 
-    }
+}
 
 
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 980px) {
 
     .titulo_ppal {
-       display: none;
+        display: none;
     }
 
     .logo_main {
@@ -127,18 +128,34 @@ header nav .menu_bar {
     }
 
     header nav {
+        /* position: fixed; */
         /* left: -100%; */
-        width: 95%;
-        height: 55px;
-        border-radius: 50px;
-    }
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content:start;
+        border-radius: 0px;
     
-    header nav a {
-        display: block;
-        float: none;
-        border-bottom: 2px solid rgba(255, 255, 255, .3);
-    }
 
     }
 
+    header nav .section_left_bar{
+        align-items: start;
+        flex-direction: column;
+        margin: 0;
+    }
 
+    header nav .section_right_bar{
+        align-items: start;
+        flex-direction: column;
+        margin left: ; 0px;
+    }
+
+    header nav .bar_separator {
+        display: none;
+    }
+
+
+    header nav a {}
+
+}
