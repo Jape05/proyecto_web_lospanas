@@ -118,6 +118,10 @@ header nav .menu_bar {
 
 @media screen and (max-width: 980px) {
 
+    body {
+        font-size: 12px;
+    }
+
     .titulo_ppal {
         display: none;
     }
@@ -127,28 +131,40 @@ header nav .menu_bar {
         height: 220px;
     }
 
+    header nav .option_bar:hover {
+        background: none;
+        color: #FF8800; transition: 0.07s ease-in;
+        border-radius: 0px;
+        text-decoration:underline;
+    }
+
     header nav {
-        /* position: fixed; */
         /* left: -100%; */
-        width: 100%;
+        padding: 20px;
+        width: 92%;
         height: 100%;
         flex-direction: column;
-        justify-content:start;
-        border-radius: 0px;
-    
+        justify-content: start;
+        border-radius: 10px;
+        gap: 30px;
+        text-decoration:solid;
+
 
     }
 
-    header nav .section_left_bar{
+    header nav .section_left_bar {
         align-items: start;
         flex-direction: column;
         margin: 0;
+        gap: 30px;
     }
 
-    header nav .section_right_bar{
+    header nav .section_right_bar {
         align-items: start;
         flex-direction: column;
-        margin left: ; 0px;
+        margin left: ;
+        0px;
+        gap: 30px;
     }
 
     header nav .bar_separator {
@@ -156,6 +172,8 @@ header nav .menu_bar {
     }
 
 
-    header nav a {}
+    header nav a {
+
+    }
 
 }
