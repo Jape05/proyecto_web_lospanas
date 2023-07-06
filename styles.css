@@ -52,24 +52,24 @@ header nav {
     flex-direction: row;
     justify-content: space-between;
     overflow: hidden;
-    gap: 15px;
     width: 95%;
     height: 55px;
     border-radius: 50px;
+    max-width: 1200px;
 }
 
 header nav .section_left_bar {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 15px;
+    gap: 30px;
     margin-left: 30px;
 }
 
 header nav .section_right_bar {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     margin-right: 30px;
 }
 
@@ -84,10 +84,6 @@ header nav .option_bar:hover {
     color: #FF8800;
     border-radius: 30px;
     padding: 12px;
-}
-
-header nav .bar_separator {
-    font-size: 20px;
 }
 
 header nav .menu_bar {
@@ -114,8 +110,6 @@ header nav .menu_bar {
 
 }
 
-
-
 @media screen and (max-width: 980px) {
 
     body {
@@ -132,23 +126,21 @@ header nav .menu_bar {
     }
 
     header nav .option_bar:hover {
-        background: none;
-        color: #FF8800; transition: 0.07s ease-in;
+        background: #181818; transition: 0.05s ease-in;
+        color: #FF8800;
         border-radius: 0px;
-        text-decoration:underline;
     }
 
     header nav {
         /* left: -100%; */
-        padding: 20px;
-        width: 92%;
+        width: 80%;
         height: 100%;
         flex-direction: column;
         justify-content: start;
+        align-items: start;
         border-radius: 10px;
-        gap: 30px;
-        text-decoration:solid;
-
+        gap: 15px;
+        display: block;
 
     }
 
@@ -156,23 +148,21 @@ header nav .menu_bar {
         align-items: start;
         flex-direction: column;
         margin: 0;
-        gap: 30px;
+        gap: 15px;
+
     }
 
     header nav .section_right_bar {
         align-items: start;
         flex-direction: column;
-        margin left: ;
-        0px;
-        gap: 30px;
-    }
-
-    header nav .bar_separator {
-        display: none;
+        gap: 15px;
     }
 
 
-    header nav a {
+    .option_bar {
+        display: block;
+        width: 100%;
+        padding-left: 30px;
 
     }
 
