@@ -55,7 +55,7 @@ header nav {
     width: 95%;
     height: 55px;
     border-radius: 50px;
-    max-width: 1200px;
+    max-width: 1280px;
 }
 
 header nav .section_left_bar {
@@ -126,7 +126,7 @@ header nav .menu_bar {
     }
 
     header nav .option_bar:hover {
-        background: #181818; transition: 0.05s ease-in;
+        background: #181818;
         color: #FF8800;
         border-radius: 0px;
     }
@@ -148,21 +148,21 @@ header nav .menu_bar {
         align-items: start;
         flex-direction: column;
         margin: 0;
-        gap: 15px;
+        gap: 0px;
 
     }
 
     header nav .section_right_bar {
         align-items: start;
         flex-direction: column;
-        gap: 15px;
+        gap: 0px;
     }
 
 
     .option_bar {
         display: block;
         width: 100%;
-        padding-left: 30px;
+        padding: 20px;
 
     }
 
