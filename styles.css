@@ -126,9 +126,10 @@ header nav .menu_bar {
     }
 
     header nav .option_bar:hover {
-        background: #181818;
+        background: #181818; transition: 0.00s ease-in;
         color: #FF8800;
         border-radius: 0px;
+
     }
 
     header nav {
@@ -163,6 +164,7 @@ header nav .menu_bar {
         display: block;
         width: 100%;
         padding: 20px;
+        margin: 0px;
 
     }
 
